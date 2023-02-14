@@ -8,6 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./poster.css">
     <link rel="stylesheet" href="./heart.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.min.css" crossorigin="anonymous">
+    <script src="./fontawesome-free-6.3.0-web/js/all.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js" integrity="sha512-6+omgCeZrCR0P1MeXuxuY5ZawncdaNQFvjLydwl+0pJ9PtidivCsQePhf/LSZVklDWyyZ4YqZb7iPFHHUtz8UA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
@@ -17,9 +19,20 @@
     <div class="overview">
         <div class="container" id="main">
             <h1>Happy Valentine's Day</h1>
-            <input type="button" value="Click On Me" class="button" id="btn_Valentine">
+            <div class="content">
+                <p> Nhân ngày valentine mình có món quà nho nhỏ gửi tặng Nhi</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-gift gift_btn" id="btn_Valentine"></i>
+            </div>
         </div>
-        <div id="heart" class="the_hearth"></div>
+        <div id="overview_heart">
+            <div id="heart" class="the_hearth"></div>
+            <div class="cover object">
+                <img class="contain" src="./img/crush.jpg" alt="Paris" style="width: 300px; height: 400px">
+            </div>
+        </div>
+        
     </div>
     
     <script src="./event.js"></script>
